@@ -2,11 +2,8 @@ import discord
 import asyncio
 from discord.ext import commands
 
-# Токен вашего бота
 TOKEN = 'token'
-# ID вашего канала
 CHANNEL_ID = id
-# Основное сообщение без упоминания пользователя
 MESSAGE_TEMPLATE = "MESSAGE"
 
 intents = discord.Intents.default()
